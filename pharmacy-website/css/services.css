@@ -1,0 +1,86 @@
+/* card section */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-weight: 600;
+    color: #343a40;
+}
+.card-text {
+    color: #555;
+}
+
+/*services section*/
+.services {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.service-col {
+    flex-basis: 31%;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+    padding: 30px 12px;
+    text-align: center;
+}
+.service-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    transition: transform 0.5s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+
+/* Services Section from logistics web*/
+.services-section {
+    background-color: var(--light-gray);
+}
+
+.section-header h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+/*products section*/
+.products {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.product-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+}
+.product-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    transition: transform 0.5s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}

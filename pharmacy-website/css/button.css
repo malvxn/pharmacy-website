@@ -1,0 +1,23 @@
+/* Button styles for the zoom functionality */
+.zoom-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.5s ease-out;
+    background-color: #343a40;
+    color: white;
+}
+.zoom-btn:hover {
+    transform: scale(1.1);
+    background-color: #495057;
+    color: #f8f9fa;
+}
+.btn-arrow {
+    opacity: 0;
+    transform: translateX(-5px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.zoom-btn:hover .btn-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
